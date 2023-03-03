@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default function Shop() {
+interface sec {
+    subTitle: string,
+    title: string,
+    desc: string
+}
+
+export default function Shop(shop:sec) {
     return (
 
         <div className=' w-[80%] flex justify-between m-auto sm:flex-row flex-col-reverse h-[15cm]'>
@@ -12,9 +18,9 @@ export default function Shop() {
                 <img src="/img4.jpg" alt="" className='absolute top-[140px] sm:top-[260px] left-[200px] sm:left-[400px] w-[80px] sm:w-[160px]' />
             </div>
             <div className=' sm:w-1/3 m-auto'>
-                <h2 className=' text-[17px] tracking-widest text-gray-700'>BRAND NEW</h2>
-                <h1 className=' text-[30px] font-bold leading-[35px]	'>Summer wear</h1>
-                <p className=' text-[16px] text-gray-700 mt-[20px]'>Check out our comfy crewnecks, lightweight khakis, breathable tanktops and more.</p>
+                <h2 className=' text-[17px] tracking-widest text-gray-700'>{shop.subTitle}</h2>
+                <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{shop.title}</h1>
+                <p className=' text-[16px] text-gray-700 mt-[20px]'>{shop.desc}</p>
                 <button className='text-white bg-[#111111] font-bold px-[20px] py-[12px] mt-[20px]'>Shop Tops</button><br className='sm:hidden' />
                 <button className='text-white bg-[#111111] font-bold px-[20px] py-[12px] mt-[20px] sm:ml-[20px]'>Shop All Womens</button>
             </div>
