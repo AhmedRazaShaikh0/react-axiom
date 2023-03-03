@@ -17,7 +17,7 @@ export default function Shop(shop:sec) {
                 <img src="/img5.jpg" alt="" className='absolute top-[40px] sm:top-[90px] left-[210px] sm:left-[400px] w-[50px] sm:w-[100px]' />
                 <img src="/img4.jpg" alt="" className='absolute top-[140px] sm:top-[260px] left-[200px] sm:left-[400px] w-[80px] sm:w-[160px]' />
             </div>
-            <div className=' sm:w-1/3 m-auto'>
+            <div className=' sm:w-1/3 my-auto'>
                 <h2 className=' text-[17px] tracking-widest text-gray-700'>{shop.subTitle}</h2>
                 <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{shop.title}</h1>
                 <p className=' text-[16px] text-gray-700 mt-[20px]'>{shop.desc}</p>
