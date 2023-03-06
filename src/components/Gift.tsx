@@ -11,7 +11,7 @@ interface sec {
 export default function Gift(gift: sec) {
     return (
 
-        <div className='bg-white w-[80%] flex justify-between m-auto lg:flex-row flex-col-reverse'>
+        <div className='bg-white w-[80%] flex justify-between m-auto md:flex-row flex-col-reverse'>
             <div className=' sm:w-1/3 mt-[60px]'>
                 <h2 className=' text-[17px] tracking-widest text-gray-700'>{gift.subTitle}</h2>
                 <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gift.title}</h1>
