@@ -14,8 +14,8 @@ const giftData: giftType = data;
 
 export default function Gift() {
     return (
-        <div className='bg-white w-[80%] flex justify-between m-auto md:flex-row flex-col-reverse'>
-            <div className=' sm:w-1/3 mt-[60px]'>
+        <div className='bg-white w-[90%] flex md:flex-row flex-col-reverse m-auto max-w-6xl my-32 justify-between'>
+            <div className=' md:w-1/3 lg:mt-[60px] mt-[40px]'>
                 <h2 className=' text-[17px] tracking-widest text-gray-700'>{giftData.subTitle}</h2>
                 <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{giftData.title}</h1>
                 <p className=' text-[16px] text-gray-700 mt-[20px]'>{giftData.desc}</p>
@@ -27,8 +27,8 @@ export default function Gift() {
                 </button>
             </div>
 
-            <div className='flex'>
-                <div className='sm:-mr-[40px] -mr-[30px] sm:mt-[160px] mt-[80px] z-10'>
+            <div className='flex lg:w-[50%] md:w-[60%] m-auto md:m-0'>
+                <div className='sm:-mr-[40px] -mr-[30px] ml:mt-[150px] md:mt-[140px] mt-[90px] z-10'>
                     <img src={giftData.imgLeft} width={305} height={204} alt="" />
                 </div>
                 <div>

@@ -28,6 +28,6 @@ export const grid =
     img3: '/img3.jpg',
     img4: '/img4.jpg',
     img5: '/img5.jpg',
-    btn1: 'grid Tops',
-    btn2: 'grid All Womens'
+    btn1: 'Shop Tops',
+    btn2: 'Shop All Womens'
 }
