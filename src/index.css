@@ -21,40 +21,39 @@
 
 /* ####topLeft */
 .topLeft {
-    @apply md:translate-x-[170px] translate-x-[110px] md:translate-y-[170px] translate-y-[80px]  opacity-100 absolute transition-all duration-[2s] ease-out
+    @apply md:translate-x-44 ml:translate-x-44 translate-x-28 md:translate-y-44 translate-y-20  opacity-100 absolute transition-all duration-[2s] ease-out
 
 }
 .topLeftActive {
-    @apply md:translate-x-0 translate-x-[15px] md:translate-y-0 translate-y-[10px] opacity-100
+    @apply md:translate-x-0 mm:translate-x-8 ml:translate-x-[6rem] translate-x-6 md:translate-y-0 translate-y-2 opacity-100
 }
 
 
 /* ####topRight */
 .topRight {
-    @apply md:translate-x-[230px] translate-x-[130px] md:translate-y-[170px] translate-y-[100px] opacity-100 absolute transition-all duration-[2s] ease-out
+    @apply md:translate-x-56 translate-x-32 md:translate-y-44 translate-y-24 opacity-100 absolute transition-all duration-[2s] ease-out
 
 }
 .topRightActive {
-    @apply md:translate-x-[400px] translate-x-[210px] md:translate-y-[80px] translate-y-[50px] opacity-100
+    @apply md:translate-x-[25rem] mm:translate-x-56 ml:translate-x-[18rem] mn:translate-x-[27rem] translate-x-52 md:translate-y-20 ml:translate-y-[3.5rem] translate-y-12 opacity-100
 }
 
 
 /* ####botLeft */
 .botLeft {
-    @apply md:translate-x-[180px] translate-x-[100px] md:translate-y-[100px] translate-y-[70px] opacity-100 absolute transition-all duration-[2s] ease-out
+    @apply md:translate-x-44 translate-x-24 md:translate-y-24 translate-y-[4.5rem] opacity-100 absolute transition-all duration-[2s] ease-out
 
 }
 .botLeftActive {
-    @apply md:translate-x-[40px] translate-x-[30px] md:translate-y-[250px] translate-y-[140px] opacity-100
+    @apply md:translate-x-10 ml:translate-x-[7rem] translate-x-12 md:translate-y-64 ml:translate-y-[8.5rem] mn:translate-y-64 translate-y-36 opacity-100
 }
 
 
 /* ####botLeft */
 .botRight {
-    @apply md:translate-x-[200px] translate-x-[110px] md:translate-y-[150px] translate-y-[100px] opacity-100 absolute transition-all duration-[2s] ease-out
+    @apply md:translate-x-52 translate-x-28 md:translate-y-36 translate-y-24 opacity-100 absolute transition-all duration-[2s] ease-out
 
 }
 .botRightActive {
-    @apply md:translate-x-[390px] translate-x-[210px] md:translate-y-[260px] translate-y-[140px] opacity-100
+    @apply md:translate-x-[22.5rem] mn:translate-x-[26rem] ml:translate-x-[17.8rem] translate-x-52 md:translate-y-64 ml:translate-y-[9rem] translate-y-36 opacity-100
 }
-

@@ -87,15 +87,15 @@ const gridData:gridType = grid;
 export default function Shop() {
     return (
 
-        <div className='w-[80%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto lg:flex-row flex-col-reverse h-[15cm] items-center'>
-            <div className='flex relative w-[50%] '>
-                <img src={gridData.img1} alt="" className='absolute z-10 md:translate-x-[140px] translate-x-[80px] translate-y-[40px] md:w-[280px] w-[140px]' />
+        <div className='md:w-[100%] w-[90%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto md:flex-row flex-col-reverse'>
+            <div className='flex w-[40%] relative'>
+                <img src={gridData.img1} alt="" className=' absolute z-10 md:translate-x-[8.8rem] ml:translate-x-[10rem] mn:translate-x-[10.6rem] translate-x-[6.25rem] translate-y-[2.5rem] md:w-[280px] w-[140px] shadow-2xl' />
                 <img src={gridData.img3} alt="" className='topLeft md:w-[180px] w-[90px]' />
                 <img src={gridData.img5} alt="" className='topRight md:w-[100px] w-[50px]' />
                 <img src={gridData.img2} alt="" className='botLeft md:w-[200px] w-[100px]' />
                 <img src={gridData.img4} alt="" className='botRight md:w-[160px] w-[80px]' />
             </div>
-            <div className=' md:w-1/3'>
+            <div className=' md:w-1/3 my-[120px] lg:-mr-[0px] -mr-[20px] lg:ml-[0px]'>
                 <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
                 <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
                 <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
@@ -103,5 +103,23 @@ export default function Shop() {
                 <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] '>{gridData.btn2}</button>
             </div>
         </div>
+
+        
+        // <div className='w-[80%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto lg:flex-row flex-col-reverse h-[15cm] items-center'>
+        //     <div className='flex relative w-[50%] '>
+        //         <img src={gridData.img1} alt="" className='absolute z-10 md:translate-x-[140px] translate-x-[80px] translate-y-[40px] md:w-[280px] w-[140px]' />
+        //         <img src={gridData.img3} alt="" className='topLeft md:w-[180px] w-[90px]' />
+        //         <img src={gridData.img5} alt="" className='topRight md:w-[100px] w-[50px]' />
+        //         <img src={gridData.img2} alt="" className='botLeft md:w-[200px] w-[100px]' />
+        //         <img src={gridData.img4} alt="" className='botRight md:w-[160px] w-[80px]' />
+        //     </div>
+        //     <div className=' md:w-1/3'>
+        //         <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
+        //         <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
+        //         <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
+        //         <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] mr-[20px]'>{gridData.btn1}</button><br className='sm:hidden' />
+        //         <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] '>{gridData.btn2}</button>
+        //     </div>
+        // </div>
     )
 }
