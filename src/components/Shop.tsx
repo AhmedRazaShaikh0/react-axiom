@@ -36,7 +36,7 @@ function reveal() {
         }
     }
 
-    
+
     // ####RightAnim
     for (var i = 0; i < topRight.length; i++) {
         var windowheight = window.innerHeight;
@@ -82,29 +82,53 @@ function reveal() {
 }
 reveal()
 
-const gridData:gridType = grid;
+const gridData: gridType = grid;
 
 export default function Shop() {
     return (
-
-        <div className='md:w-[100%] w-[90%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto md:flex-row flex-col-reverse'>
-            <div className='flex w-[40%] relative'>
-                <img src={gridData.img1} alt="" className=' absolute z-10 md:translate-x-[8.8rem] ml:translate-x-[10rem] mn:translate-x-[10.6rem] translate-x-[6.25rem] translate-y-[2.5rem] md:w-[280px] w-[140px] shadow-2xl' />
-                <img src={gridData.img3} alt="" className='topLeft md:w-[180px] w-[90px]' />
-                <img src={gridData.img5} alt="" className='topRight md:w-[100px] w-[50px]' />
-                <img src={gridData.img2} alt="" className='botLeft md:w-[200px] w-[100px]' />
-                <img src={gridData.img4} alt="" className='botRight md:w-[160px] w-[80px]' />
-            </div>
-            <div className=' md:w-1/3 my-[120px] lg:-mr-[0px] -mr-[20px] lg:ml-[0px]'>
-                <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
-                <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
-                <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
-                <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] mr-[20px]'>{gridData.btn1}</button><br className='sm:hidden' />
-                <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] '>{gridData.btn2}</button>
+        <div className=' my-24'>
+            <div className=' max-w-6xl my-[100px] m-auto'>
+                <div className='lg:mx-[6%] mx-[3%] flex justify-between md:flex-row flex-col items-center'>
+                    <div className='md:w-[60%] bg-slate-700 flex relative'>
+                        <div className='flex bg-orange-400 my-[20px] w-[450px] m-auto items-center relative '>
+                            <img src={gridData.img1} alt="" className='center mn:max-w-[280px] max-w-[140px] m-auto my-[40px] z-20 relative shadow-2xl' />
+                            <img src={gridData.img3} alt="" className='topLeft mn:max-w-[180px] max-w-[90px] absolute top-0 left-0' />
+                            {/* <img src={gridData.img5} alt="" className='topRight mn:max-w-[100px] max-w-[50px] absolute' />
+                    <img src={gridData.img2} alt="" className='botLeft mn:max-w-[200px] max-w-[100px] absolute' />
+                    <img src={gridData.img4} alt="" className='botRight mn:max-w-[160px] max-w-[80px] absolute' /> */}
+                        </div>
+                    </div>
+                    <div className='md:w-[40%] pl-20 m-auto'>
+                        <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
+                        <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
+                        <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
+                        <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] mr-[20px]'>{gridData.btn1}</button><br className='sm:hidden' />
+                        <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] '>{gridData.btn2}</button>
+                    </div>
+                </div>
             </div>
         </div>
 
-        
+
+
+        // <div className='md:w-[100%] w-[90%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto md:flex-row flex-col-reverse'>
+        //     <div className='flex w-[40%] relative'>
+        //         <img src={gridData.img1} alt="" className='center mn:w-[280px] w-[140px] shadow-2xl' />
+        //         <img src={gridData.img3} alt="" className='topLeft mn:w-[180px] w-[90px]' />
+        //         <img src={gridData.img5} alt="" className='topRight mn:w-[100px] w-[50px]' />
+        //         <img src={gridData.img2} alt="" className='botLeft mn:w-[200px] w-[100px]' />
+        //         <img src={gridData.img4} alt="" className='botRight mn:w-[160px] w-[80px]' />
+        //     </div>
+        //     <div className=' md:w-1/3 my-[120px] lg:-mr-[0px] -mr-[20px] lg:ml-[0px]'>
+        //         <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
+        //         <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
+        //         <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
+        //         <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] mr-[20px]'>{gridData.btn1}</button><br className='sm:hidden' />
+        //         <button className='text-white hover:text-black bg-[#111111] hover:bg-white transition-all duration-500 border-2 border-black font-bold px-[20px] py-[12px] mt-[20px] '>{gridData.btn2}</button>
+        //     </div>
+        // </div>
+
+
         // <div className='w-[80%] max-w-6xl flex justify-between mt-[100px] mb-[400px] m-auto lg:flex-row flex-col-reverse h-[15cm] items-center'>
         //     <div className='flex relative w-[50%] '>
         //         <img src={gridData.img1} alt="" className='absolute z-10 md:translate-x-[140px] translate-x-[80px] translate-y-[40px] md:w-[280px] w-[140px]' />

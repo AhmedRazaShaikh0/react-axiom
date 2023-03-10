@@ -12,8 +12,6 @@ function App() {
     <Hero />
     <Gift />
     <Shop />
-    <div className="h-screen"></div>
-    <div className="h-screen"></div>
     </>
   );
 }
