@@ -27,39 +27,39 @@
 
 /* ####topLeft */
 .topLeft {
-    @apply md:translate-x-[170px] ml:translate-x-[170px] translate-x-[110px] md:translate-y-[170px] translate-y-[80px]  opacity-100 absolute transition-all duration-[2s] ease-out
+    @apply  md:translate-x-44 translate-x-16 translate-y-20 transition-all duration-[2s] ease-out
 
 }
 .topLeftActive {
-    @apply md:translate-x-0 mm:translate-x-[30px] ml:translate-x-[0px] translate-x-[25px] md:translate-y-0 translate-y-[10px] opacity-100
+    @apply md:-translate-x-11 -translate-x-8 md:-translate-y-1 translate-y-3
 }
 
 
 /* ####topRight */
 .topRight {
-    
+    @apply md:-translate-x-44 -translate-x-20 translate-y-32 transition-all duration-[2s] ease-out
 
 }
 .topRightActive {
-    
+    @apply md:-translate-x-1 translate-x-1 md:translate-y-20 translate-y-14
 }
 
 
 /* ####botLeft */
 .botLeft {
-    
+    @apply md:translate-x-32 translate-x-16 -translate-y-24 transition-all duration-[2s] ease-out
 
 }
 .botLeftActive {
-    
+    @apply -translate-x-4 md:translate-y-9 -translate-y-0
 }
 
 
 /* ####botLeft */
 .botRight {
-    
+    @apply md:-translate-x-36 -translate-x-16 md:-translate-y-32 -translate-y-24 transition-all duration-[2s] ease-out
 
 }
 .botRightActive {
-    
+    @apply md:translate-x-10 translate-x-7 md:-translate-y-3 -translate-y-6
 }

@@ -89,16 +89,16 @@ export default function Shop() {
         <div className=' my-24'>
             <div className=' max-w-6xl my-[100px] m-auto'>
                 <div className='lg:mx-[6%] mx-[3%] flex justify-between md:flex-row flex-col items-center'>
-                    <div className='md:w-[60%] bg-slate-700 flex relative'>
-                        <div className='flex bg-orange-400 my-[20px] w-[450px] m-auto items-center relative '>
-                            <img src={gridData.img1} alt="" className='center mn:max-w-[280px] max-w-[140px] m-auto my-[40px] z-20 relative shadow-2xl' />
+                    <div className='md:w-[60%] w-full bg-slate-700 flex relative'>
+                        <div className='flex bg-orange-400 my-[20px] mn:w-[450px] w-[210px] m-auto items-center relative '>
+                            <img src={gridData.img1} alt="" className='center mn:max-w-[280px] max-w-[140px] m-auto mn:my-[40px] my-[40px] z-20 relative' />
                             <img src={gridData.img3} alt="" className='topLeft mn:max-w-[180px] max-w-[90px] absolute top-0 left-0' />
-                            {/* <img src={gridData.img5} alt="" className='topRight mn:max-w-[100px] max-w-[50px] absolute' />
-                    <img src={gridData.img2} alt="" className='botLeft mn:max-w-[200px] max-w-[100px] absolute' />
-                    <img src={gridData.img4} alt="" className='botRight mn:max-w-[160px] max-w-[80px] absolute' /> */}
+                            <img src={gridData.img5} alt="" className='topRight mn:max-w-[100px] max-w-[50px] absolute top-0 right-0' />
+                            <img src={gridData.img2} alt="" className='botLeft mn:max-w-[200px] max-w-[100px] absolute bottom-0 left-0' />
+                            <img src={gridData.img4} alt="" className='botRight mn:max-w-[160px] max-w-[80px] absolute bottom-0 right-0' />
                         </div>
                     </div>
-                    <div className='md:w-[40%] pl-20 m-auto'>
+                    <div className='md:w-[40%] mn:pl-20 pl-5 m-auto'>
                         <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
                         <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
                         <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>
