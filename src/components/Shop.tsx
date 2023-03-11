@@ -89,8 +89,8 @@ export default function Shop() {
         <div className=' my-24'>
             <div className=' max-w-6xl my-[100px] m-auto'>
                 <div className='lg:mx-[6%] mx-[3%] flex justify-between md:flex-row flex-col items-center'>
-                    <div className='md:w-[60%] w-full bg-slate-700 flex relative'>
-                        <div className='flex bg-orange-400 my-[20px] mn:w-[450px] w-[210px] m-auto items-center relative '>
+                    <div className='md:w-[60%] w-full flex relative'>
+                        <div className='flex my-[20px] mn:w-[450px] w-[210px] m-auto items-center relative '>
                             <img src={gridData.img1} alt="" className='center mn:max-w-[280px] max-w-[140px] m-auto mn:my-[40px] my-[40px] z-20 relative' />
                             <img src={gridData.img3} alt="" className='topLeft mn:max-w-[180px] max-w-[90px] absolute top-0 left-0' />
                             <img src={gridData.img5} alt="" className='topRight mn:max-w-[100px] max-w-[50px] absolute top-0 right-0' />
