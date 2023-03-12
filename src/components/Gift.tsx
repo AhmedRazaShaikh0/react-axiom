@@ -14,8 +14,8 @@ const giftData: giftType = data;
 
 export default function Gift() {
     return (
-        <div className='bg-white w-[90%] flex md:flex-row flex-col-reverse m-auto max-w-6xl my-32 justify-between'>
-            <div className=' md:w-1/3 lg:mt-[60px] mt-[40px]'>
+        <div className='bg-white flex md:flex-row flex-col-reverse m-auto max-w-6xl my-32 justify-between px-[3%]'>
+            <div className=' md:w-[50%] w-full md:pr-20 m-auto'>
                 <h2 className=' text-[17px] tracking-widest text-gray-700'>{giftData.subTitle}</h2>
                 <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{giftData.title}</h1>
                 <p className=' text-[16px] text-gray-700 mt-[20px]'>{giftData.desc}</p>
@@ -27,12 +27,12 @@ export default function Gift() {
                 </button>
             </div>
 
-            <div className='flex lg:w-[50%] md:w-[60%] m-auto md:m-0'>
-                <div className='sm:-mr-[40px] -mr-[30px] ml:mt-[150px] md:mt-[140px] mt-[90px] z-10'>
-                    <img src={giftData.imgLeft} width={305} height={204} alt="" />
+            <div className='flex'>
+                <div className=' m-auto'>
+                    <img src={giftData.imgLeft} alt="" className=' ml:translate-x-[3rem] translate-x-[2rem] ml:translate-y-12 translate-y-9' />
                 </div>
                 <div>
-                    <img src={giftData.imgRight} width={305} height={410} alt="" />
+                    <img src={giftData.imgRight} alt="" />
                 </div>
             </div>
         </div>
