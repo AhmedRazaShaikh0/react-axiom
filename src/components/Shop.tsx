@@ -87,8 +87,8 @@ const gridData: gridType = grid;
 export default function Shop() {
     return (
         <div className=' my-24'>
-            <div className=' max-w-6xl my-[100px] m-auto'>
-                <div className='lg:mx-[6%] mx-[3%] flex justify-between md:flex-row flex-col items-center'>
+            <div className=' max-w-6xl my-[100px] m-auto md:ml-10'>
+                <div className='lg:mx-[6%] mx-[3%] flex justify-between md:flex-row flex-col'>
                     <div className='md:w-[60%] w-full flex relative'>
                         <div className='flex my-[20px] min-[560px]:w-[450px] w-[210px] m-auto items-center relative '>
                             <img src={gridData.img1} alt="" className='center min-[560px]:max-w-[280px] max-w-[140px] m-auto min-[560px]:my-[40px] my-[40px] z-20 relative' />
@@ -98,7 +98,7 @@ export default function Shop() {
                             <img src={gridData.img4} alt="" className='botRight min-[560px]:max-w-[160px] max-w-[80px] absolute bottom-0 right-0' />
                         </div>
                     </div>
-                    <div className='md:w-[40%] m-auto'>
+                    <div className='md:w-[40%] md:m-auto md:ml-14'>
                         <h2 className=' text-[17px] tracking-widest text-gray-700'>{gridData.subTitle}</h2>
                         <h1 className=' text-[30px] font-bold leading-[35px] mt-[5px]'>{gridData.title}</h1>
                         <p className=' text-[16px] text-gray-700 mt-[20px]'>{gridData.desc}</p>

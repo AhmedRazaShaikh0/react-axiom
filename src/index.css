@@ -63,3 +63,28 @@
 .botRightActive {
     @apply md:translate-x-10 translate-x-7 md:-translate-y-3 -translate-y-6
 }
+
+
+.top {
+    @apply transition-all duration-[1s] ease-out ml:translate-y-[120%]
+
+}
+.topActive {
+    @apply ml:translate-y-[0%]
+}
+
+
+/* .top {
+    animation: 1s cubic-bezier(0.26, 0.54, 0.32, 1) 0.5s forwards;
+    animation-name: rise-up;
+}
+@keyframes rise-up {
+    0% {
+        opacity: 1;
+        transform: translateY(120%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+} */

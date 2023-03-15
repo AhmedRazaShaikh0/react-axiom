@@ -31,3 +31,9 @@ export const grid =
     btn1: 'Shop Tops',
     btn2: 'Shop All Womens'
 }
+export const parallex =
+{
+    subTitle: 'ATHLETE FEATURE',
+    title: 'James Harrison',
+    desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits. That's why we only use the highest quality fabrics."
+}
