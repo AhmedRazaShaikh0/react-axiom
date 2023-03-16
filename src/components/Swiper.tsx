@@ -17,7 +17,7 @@ import { EffectCoverflow, Pagination } from "swiper";
 
 export default function App() {
   return (
-    <div className=" bg-slate-700 px-5">
+    <div className=" bg-[#F9F9F9] px-5">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
