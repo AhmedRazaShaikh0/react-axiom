@@ -74,17 +74,5 @@
 }
 
 
-/* .top {
-    animation: 1s cubic-bezier(0.26, 0.54, 0.32, 1) 0.5s forwards;
-    animation-name: rise-up;
-}
-@keyframes rise-up {
-    0% {
-        opacity: 1;
-        transform: translateY(120%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(0%);
-    }
-} */
+
+

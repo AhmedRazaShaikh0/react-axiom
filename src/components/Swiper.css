@@ -1,0 +1,26 @@
+
+.swiper {
+    @apply w-full py-10
+  }
+  
+  .swiper-slide {
+    @apply flex flex-col justify-center bg-white text-center gap-5 p-7
+     md:min-w-[230px] md:w-[37%] min-w-[320px] h-[380px]
+  }
+  
+  .swiper-slide-active {
+    @apply shadow-[0_10px_25px_rgb(0,0,0,0.1)]
+  }
+  
+  .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-black
+  }
+  
+  .swiper-pagination-bullet {
+    @apply bg-transparent border-2 border-black opacity-100 w-2 h-2
+  }
+  
+  
+  .swiper-slide-prev, .swiper-slide-next {
+   @apply p-12;
+  }
