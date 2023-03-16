@@ -31,9 +31,57 @@ export const grid =
     btn1: 'Shop Tops',
     btn2: 'Shop All Womens'
 }
+
+
 export const parallex =
 {
     subTitle: 'ATHLETE FEATURE',
     title: 'James Harrison',
     desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits. That's why we only use the highest quality fabrics."
 }
+
+
+export const testimonial = [
+    {
+        id: 1,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Ahmed Raza',
+        city: 'Karachi, Pakistan',
+    },
+    {
+        id: 2,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Affan Khan',
+        city: 'Karachi, Pakistan',
+    },
+    {
+        id: 3,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Shehzad Khan',
+        city: 'Karachi, Pakistan',
+    },
+    {
+        id: 4,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Zia Khan',
+        city: 'Karachi, Pakistan',
+    },
+    {
+        id: 5,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Hamza Khan',
+        city: 'Karachi, Pakistan',
+    },
+    {
+        id: 6,
+        desc: "We know how important it is to have gear that doesn't let you down when you're pushing your limits.",
+        src: 'ATHLETE FEATURE',
+        name: 'Abdul Basit',
+        city: 'Karachi, Pakistan',
+    },
+]

@@ -21,6 +21,6 @@
   }
   
   
-  .swiper-slide-prev, .swiper-slide-next {
-   @apply p-12;
-  }
+  /* .swiper-slide-prev, .swiper-slide-next {
+   @apply p-5;
+  } */
