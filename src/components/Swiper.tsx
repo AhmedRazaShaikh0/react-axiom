@@ -1,17 +1,10 @@
-import { testimonial } from "./Databse";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-
 import '../components/Swiper.css'
-
+import { testimonial } from "./Databse";
+import { Swiper, SwiperSlide } from "swiper/react";
 import { AiTwotoneStar } from 'react-icons/ai'
-
-// import required modules
 import { EffectCoverflow, Pagination } from "swiper";
 
 export default function App() {
@@ -22,10 +15,11 @@ export default function App() {
         grabCursor={true}
         centeredSlides={true}
         centeredSlidesBounds={true}
+        centerInsufficientSlides={true}
         slidesPerView={"auto"}
         coverflowEffect={{
           rotate: 0,
-          stretch: 1,
+          stretch: 0,
           depth: 100,
           modifier: 1,
           slideShadows: false,
